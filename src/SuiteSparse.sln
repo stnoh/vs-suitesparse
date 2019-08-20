@@ -100,6 +100,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsuitesparse", "Visual St
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmetis", "Visual Studio\shared\libmetis\libmetis.vcxproj", "{563E14AA-7102-4CF4-91CD-ED0EFFF9EAED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7353B33C-E144-4452-8752-50896970E4E6} = {7353B33C-E144-4452-8752-50896970E4E6}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
